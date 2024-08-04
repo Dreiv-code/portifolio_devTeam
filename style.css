@@ -1,6 +1,3 @@
-:root{
-  --border-gradient: linear-gradient();
-}
 *{
   padding: 0;
   margin: 0;
@@ -49,6 +46,9 @@ footer{
   align-items: center;
   font-size: 0.9rem;
   color: #fff;
+}
+.conteinerHidden{
+  display: none !important;
 }
 .sections{
   display: flex;
@@ -120,6 +120,31 @@ footer{
     height: 15rem;
     width: 20rem;
     row-gap: 2rem;
+    & .conteiner-info{
+      display: flex;
+      position: absolute;
+      min-height: 10rem;
+      min-width: 20rem;
+      bottom: calc(50% - 5rem);
+      border-radius: 0.5rem;
+      background-color: #fff;
+      box-shadow: 0 0 0 1px #00000059;
+      text-align: center;
+      padding: 0.5rem;
+      & .bntCloseInfo{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #00000059;
+        border-radius: 50%;
+        top: -0.4rem;
+        right: -0.4rem;
+        cursor: pointer;
+      }
+    }
     & img{
       display: flex;
       position: absolute;
