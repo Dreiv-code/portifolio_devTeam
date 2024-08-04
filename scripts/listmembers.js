@@ -9,12 +9,12 @@ const dadosMembers = [
         nameMember: "Warlis",
         areaMember: "Programador e Design",
         imgMember: "Imagens/IMG_20240803_083331.jpg",
-        sobreMember: "Professor, historiador e programdor"
+        sobreMember: "Estudante, Designer e programdor"
     },
     {
         nameMember: "Manoel",
         areaMember: "Programador e editor",
         imgMember: "",
-        sobreMember: "Estudante, programador, desenhista, editor"
+        sobreMember: "Estudante, programador, desenhista e editor"
     }
 ]
